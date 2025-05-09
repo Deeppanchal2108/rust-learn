@@ -6,8 +6,6 @@ struct Character {
     health :i32,
     attack :i32,
     defence :i32,
-
-
 }
 
 impl Character{
@@ -17,7 +15,7 @@ impl Character{
             name,
             health,
             attack,
-            defence
+            defence,
         }
     }
     fn attack(&mut self, target :&mut Character){
